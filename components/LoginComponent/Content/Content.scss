@@ -1,0 +1,55 @@
+.content-wrapper {
+    height: 33vw;
+    text-align: center;
+    background-color: #e0e0e0;
+    .wrapper-login {
+        border-radius: 2vw;
+        background-image: url('https://balboaitalian.com.au/wp-content/uploads/2016/07/footer-texture.jpg');
+        display: inline-block;
+        margin-top: 7vw;
+        height: 19vw;
+        width: 30vw;
+        border-right-color: black;
+        box-shadow: 6px 5px 20px 0px black;
+
+
+        .wrapper-input {
+                margin: 2vw;
+                display: table-caption;
+                width: 26vw;
+            .input {
+                margin: 1vw;
+                background-color: rgba(0, 0, 0, 0);
+                border-style: none none solid none;
+                border-bottom-color: #d8cece;
+                color: #d8cece;
+                width: 24vw;
+                font-size: 1.5vw;
+            }
+           
+        }
+        .error {
+            color: red;
+            padding: 1vw;
+            font-size: 1vw;
+            margin-top: -3vw;
+
+        }
+        .wrapper-btn {
+            display: flex;
+            justify-content: space-evenly;
+            .btn {
+                font-size: 1.3vw;
+                width: 8vw;
+                height: 4vw;
+                border-radius: 0.7vw;
+                color: #d8cece;
+                background-color: #000;
+                border-color: #d8cece;
+                box-shadow: 9px 9px 20px black;
+                cursor: pointer;
+            }
+        }
+    }
+   
+}

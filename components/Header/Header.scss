@@ -1,0 +1,26 @@
+.header-wrapper {
+    background-image: url('https://balboaitalian.com.au/wp-content/uploads/2016/07/footer-texture.jpg');
+    height: 8vw;
+    color: #fff;
+    text-align: center;
+    font-size: 5vw;
+    display: flex;
+    justify-content: space-around;
+    
+    .btn{
+        width: 8vw;
+        height: 3vw;
+        border-radius: 1vw;
+        color: #fff;
+        background-color: #000;
+        border-color: #fff;
+        margin-top: 2vw;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    // .btn:hover, Link > .btn {
+    //     color: #000;
+    //     background-color: #fff;
+    //     border-color: #000;
+    // }
+}
